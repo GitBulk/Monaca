@@ -1,4 +1,6 @@
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Monaca.Models;
 
 namespace Monaca.Controllers.Apis
 {
@@ -8,7 +10,7 @@ namespace Monaca.Controllers.Apis
         [HttpGet]
         public IActionResult GetTeams()
         {
-            return OkContent("kaka");
+            return OkContent(Enumerable.Empty<Team>());
         }
     }
 }

@@ -16,5 +16,15 @@ namespace Monaca.Controllers.Apis
 
             return Ok(json);
         }
+
+        public IActionResult OkContent<T>(T data)
+        {
+            var json = new
+            {
+                data = data
+            };
+
+            return Ok(json);
+        }
     }
 }
