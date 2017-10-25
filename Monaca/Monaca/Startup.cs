@@ -24,6 +24,7 @@ namespace Monaca
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            AddDependecyInjection(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +36,11 @@ namespace Monaca
             }
 
             app.UseMvc();
+        }
+
+        public void AddDependecyInjection(IServiceCollection services)
+        {
+            // services.AddScoped
         }
     }
 }

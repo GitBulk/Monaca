@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monaca", "Monaca\Monaca.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monaca.Tests", "Monaca.Tests\Monaca.Tests.csproj", "{E42F8E38-B9F6-4B69-A5A6-BA071583233D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{FD90CAA3-8CB9-40B5-A57C-54E9511D8126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monaca.Services", "Libraries\Monaca.Services\Monaca.Services.csproj", "{1A3726E6-F7C1-4D41-B9DF-592A83A0B583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,12 @@ Global
 		{E42F8E38-B9F6-4B69-A5A6-BA071583233D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E42F8E38-B9F6-4B69-A5A6-BA071583233D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E42F8E38-B9F6-4B69-A5A6-BA071583233D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3726E6-F7C1-4D41-B9DF-592A83A0B583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3726E6-F7C1-4D41-B9DF-592A83A0B583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3726E6-F7C1-4D41-B9DF-592A83A0B583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3726E6-F7C1-4D41-B9DF-592A83A0B583}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A3726E6-F7C1-4D41-B9DF-592A83A0B583} = {FD90CAA3-8CB9-40B5-A57C-54E9511D8126}
 	EndGlobalSection
 EndGlobal
